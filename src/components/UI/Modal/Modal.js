@@ -10,6 +10,7 @@ class Modal extends Component {
         return nextProps.show !== this.props.show || nextProps.children !== this.props.children;
     }
     //differences again
+    //hello practice
     componentWillUpdate () {
         console.log('[Modal] WillUpdate');
     }
